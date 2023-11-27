@@ -67,8 +67,8 @@ const data = {
 }
 
 export const metadata: Metadata = {
-  title: "Drew Hirschi's resume",
-  // description: 'Join our email list',
+  title: "Andrew Hirschi",
+  description: "Andrew's resume",
 }
 
 export default function Resume() {
