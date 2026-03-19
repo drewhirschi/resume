@@ -71,65 +71,64 @@ export default function Resume() {
       </Box>
     </Center>
 
+    <Center>
+      <Text>Kirkland, WA</Text>
+    </Center>
+
 
 
     <SectionHeader title="EDUCATION" />
     <CompanyExperience company="Brigham Young University" location="Provo, UT" />
-    <PostitionHeld position="Bachelor of Science, Computer Science, Emphasis in Software Engineering" timeline="April 2021" />
+    <PostitionHeld position="Bachelor of Science, Computer Science, Emphasis in Software Engineering" timeline="Apr 2021" />
 
 
 
     <SectionHeader title="EXPERIENCE" />
 
 
-    <CompanyExperience company="Doma Data, Inc" location="Kirkland, WA" >
-      <PostitionHeld position="Founder & CEO" timeline="Oct 2023 - Present" />
+    <CompanyExperience company="Enzo Health" location="Lehi, UT" >
+      <PostitionHeld position="Senior AI Engineer" timeline="Jan 2025 – Present" />
       <List>
-        <ListItem>
-          Built <Link href={"https://domadata.com"} target="_blank">Doma</Link> to assist investment bankers wtih market research. Doma uses a distributed backend to scrape web pages for nuanced data on thousands of companies. Uses Supabase as
-        </ListItem>
-        <ListItem>
-          Interviewed for Y Combinator's W25 batch
-        </ListItem>
-        <ListItem>
-          Built <Link href={"https://parsllegal.com"} target="_blank">Parsl AI</Link> to assist legal M&A due diligence.
-          Parsl scans commercial contracts for red flags and annotates issues directly in the PDF.
-        </ListItem>
-        <ListItem>
-          Parsl allows lawyers to easily review and mark PDFs in the browser.
-          All annotations are synced to allow a team to collaborate
-        </ListItem>
       </List>
     </CompanyExperience>
 
-    <CompanyExperience company="Atlas Technology LLC" location="Kirkland, WA" >
-      <PostitionHeld position="Founder" timeline="July 2023 - Present" />
+    <CompanyExperience company="Doma Data, Inc" location="Kirkland, WA" >
+      <PostitionHeld position="Founder & CEO" timeline="Oct 2023 – Jan 2025" />
       <List>
         <ListItem>
-          Runs a service for a marketing agency that prcesses over 1000 phone calls per month. The service web scrapes phone call recordings with playwright, extracts insights with LLMs, and pushes results via API to a CRM.
+          {"Built Parsl to assist legal M&A due diligence. Parsl uses a custom PDF to XML pipeline to scan contracts for red flags with LLMs. The LLM output is transformed into highlights that are overlaid on the pdf in a custom pdf web viewer where lawyers can verify results. This project was built with NextJS, Supabase(postgres), OpenAI, and TypeScript."}
+        </ListItem>
+        <ListItem>
+          {"Built Doma to assist investment bankers with market research. Doma uses a distributed backend to scrape hundreds of thousands of webpages quickly to gather details about companies. LLMs synthesize this information into company profiles that can be indexed and used to find competitors and potential acquirers. Doma is built with NextJS, Supabase(postgres), OpenAI, BullMQ, Docker, and TypeScript."}
+        </ListItem>
+        <ListItem>
+          Ran a service for a marketing agency that processed over 1000 phone calls per month. The service web scraped phone call recordings with Playwright, extracted insights with OpenAI GPT-4 family models, and pushed results via API to the customer CRM.
+        </ListItem>
+        <ListItem>
+          Interviewed for Y Combinator W25 batch.
         </ListItem>
       </List>
     </CompanyExperience>
 
     <CompanyExperience company="Microsoft Corporation" location="Redmond, WA" >
 
-      <PostitionHeld position="Software Engineer, level 60" timeline="Sept 2021 - Sept 2023" />
+      <PostitionHeld position="Software Engineer, level 60" timeline="Sep 2021 – Sep 2023" />
       <List>
         <ListItem>
-          Lead effort to build dynamically generated UI with React and Typescript in Microsoft Lighthouse Baselines. All dynamic components had to support three role-based renderings and be fully configurable in the backend.
+          Led effort to build dynamically generated UI with React and TypeScript in Microsoft Lighthouse Baselines. All dynamic components had to support three role-based renderings and be fully configurable in the backend.
         </ListItem>
         <ListItem>
-          Rated “Greatly exceeded expectations” by manager both years for effectively collaborating with product managers and designers to meet deadlines while exceeding cusomter expectations.
+          {"Rated \"Greatly exceeded expectations\" by manager both years for effectively collaborating with product managers and designers to meet deadlines while exceeding customer expectations."}
         </ListItem>
         <ListItem>
-          Built an integration testing framework for team with playwright.
+          Built an end-to-end testing framework with Playwright that handled MFA auth.
         </ListItem>
       </List>
 
-      <PostitionHeld position="Software engineer intern" timeline="June 2020 - Sept 2020" />
+      <PostitionHeld position="Software Engineer Intern" timeline="May 2020 – Aug 2020" />
       <List>
         <ListItem>
-          Rebuilt a portion of Microsoft Lighthouse within Microsoft Teams to provide a more collaborative experience for the end user. The app was implemented with React/Typescript, Azure Functions, Cosmos DB, Azure Storage, and Azure Active Directory.
+          Rebuilt a portion of Microsoft Lighthouse within Microsoft Teams to provide a more collaborative experience for the end user. The prototype was demoed to multiple partners. The app was implemented with React/TypeScript, Azure Functions, Cosmos DB, Azure Storage, and Azure Active Directory.
         </ListItem>
         <ListItem>
           {"Wrote and deployed a .NET Core Azure App Service to help with team's load and performance testing after finishing the scoped internship project 6 weeks early."}
@@ -138,7 +137,7 @@ export default function Resume() {
     </CompanyExperience>
 
     <CompanyExperience company="DNJ Solutions LLC" location="Lehi, UT" >
-      <PostitionHeld position="Partner/Data Engineer" timeline="May 2021 - March 2023" />
+      <PostitionHeld position="Partner/Data Engineer" timeline="May 2021 – Mar 2023" />
       <List>
         <ListItem>
           Implemented a marketing data pipeline that ingested more than 200,000 orders valued at over $200 million for a client. Used Fivetran for common marketing channels and AWS Lambda/S3 for custom ETL.
@@ -147,77 +146,77 @@ export default function Resume() {
     </CompanyExperience>
 
     <CompanyExperience company="Aptive Environmental" location="Nashville, TN" >
-      <PostitionHeld position="Sales Rep" timeline="May 2021 - June 2021" />
+      <PostitionHeld position="Summer Sales Representative" timeline="May 2021 – Jun 2021" />
       <List>
         <ListItem>
-          Consistently met or exceeded daily sales goals, selling door to door ten hours a day
+          Consistently met or exceeded daily sales goals, selling door-to-door ten hours a day.
         </ListItem>
         <ListItem>
           Runner up for top rookie salesman in region.
         </ListItem>
         <ListItem>
-          Learned to establish trust with customers and be an expert of the product during six-week employment contract.
+          Learned to establish trust with customers and be an expert on the product during a six-week employment contract.
         </ListItem>
       </List>
     </CompanyExperience>
 
 
     <CompanyExperience company="Amazon.com, Inc" location="Seattle, WA" >
-      <PostitionHeld position="Software Development Engineer Intern" timeline="Jun 2019 - Aug 2019" />
+      <PostitionHeld position="Software Development Engineer Intern" timeline="Jun 2019 – Aug 2019" />
       <List>
         <ListItem>
           Built a React/TypeScript frontend deployed to AWS S3 and Lambda to allow users to easily generate proprietary big data jobs on AWS Step Functions and Amazon EMR.
         </ListItem>
         <ListItem>
-          Won an award for best customer obsession out of a cohort of 30 interns.
+          {"Won an award for best \"Customer Obsession\" out of a cohort of 30 interns."}
         </ListItem>
       </List>
 
-      <PostitionHeld position="Software Development Engineer Intern" timeline="Jun 2018 - Aug 2018" />
+      <PostitionHeld position="Software Development Engineer Intern" timeline="Jun 2018 – Aug 2018" />
       <List>
         <ListItem>
-          {"Developed a Java service that mitigated dependencies and reduced client's software deployment from days to hours using multiple AWS tools such as S3, DynamoDB, and EC2."}
+          {"Developed a Java service that mitigated dependencies and reduced client's software deployment from days to hours using multiple AWS tools such as S3, DynamoDB and EC2."}
         </ListItem>
         <ListItem>
-          Built a pipeline to automate deployment of client software while performing testing, provisioning AWS hosts, and integrating with other internal services.
+          Built a pipeline to automate deployment of client software while performing testing, provisioning AWS hosts and integrating with other internal services.
         </ListItem>
       </List>
     </CompanyExperience>
 
 
     <CompanyExperience company="ControlAlt Investing" location="Provo, UT" >
-      <PostitionHeld position="Co-founder" timeline="Nov 2018 - Sept 2020" />
+      <PostitionHeld position="Co-founder" timeline="Nov 2018 – Sep 2020" />
       <List>
         <ListItem>
           {"Won both BYU's Business Model Competition and New Venture Challenge while competing against more than 60 other student teams."}
         </ListItem>
         <ListItem>
-          Architected service and development operations to automate interactions between IRA custodians and online alternative asset vendors. Led a team of 4 engineers in the buildout of service and DevOps.
+          Led a team of 4 student engineers to build service and development operations of a product to automate interactions between IRA custodians and online alternative asset vendors. The product used a static React frontend deployed to AWS S3 and a NodeJS AWS Lambda microservice backend with DynamoDB.
         </ListItem>
       </List>
     </CompanyExperience>
 
     <CompanyExperience company="Crocker Innovation Fellowship" location="Provo, UT" >
-      <PostitionHeld position="Engineering Lead" timeline="Jan 2019 - Jan 2020" />
+      <PostitionHeld position="Engineering Lead" timeline="Jan 2019 – Dec 2019" />
       <List>
         <ListItem>
           Designed and built a full stack application with a Flutter frontend and backend built on AWS Lambda, DynamoDB, Cognito and S3.
         </ListItem>
         <ListItem>
-          Lead planning and execution of an electiracal and a mechanical engineer to create an anti-theft IOT device for small construction companies.
+          Led planning and execution of an electrical and a mechanical engineer to create an anti-theft IOT device for small construction companies.
         </ListItem>
         <ListItem>
-          Identified pains, customer segment and solutions through talking to 100+ customers.
+          Identified pains, customer segment, and solutions through talking to 100+ potential customers.
         </ListItem>
       </List>
     </CompanyExperience>
 
 
-    <SectionHeader title="VOLUNTEERING" />
+    <SectionHeader title="VOLUNTEER SERVICE" />
     <CompanyExperience company="The Church of Jesus Christ of Latter-Day Saints" location="Chicago, IL" >
       <PostitionHeld
-        position="Missionary"
-        timeline="Feb 2015 - Feb 2017"
+        position="Volunteer Missionary"
+        timeline="Feb 2015 – Feb 2017"
       />
 
       <List>
@@ -225,7 +224,7 @@ export default function Resume() {
           {"Trained groups of 40+ peers in dynamic communication, teaching, and organizational skills."}
         </ListItem>
         <ListItem>
-          {"Became fluent in Spanish to communicate effectively with Mexican and other Latin immigrants."}
+          {"Became fluent in Spanish to communicate effectively with Mexican and Latin immigrants."}
         </ListItem>
       </List>
     </CompanyExperience>
@@ -236,10 +235,7 @@ export default function Resume() {
         Eagle Scout
       </ListItem>
       <ListItem>
-        Double black diamond skiier
-      </ListItem>
-      <ListItem>
-        Rocket League Champion
+        Fluent in Spanish
       </ListItem>
     </List>
 
