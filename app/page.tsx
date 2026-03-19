@@ -9,8 +9,8 @@ const Github = (props: SVGProps<SVGSVGElement>) => <svg viewBox="0 0 256 250" wi
 
 function SectionHeader({ title }: { title: string }) {
   return (
-    <Box mt={"md"}>
-      <Title order={4}>{title.toUpperCase()}</Title>
+    <Box mt={"lg"}>
+      <Title order={4} style={{ letterSpacing: "0.08em" }}>{title.toUpperCase()}</Title>
       <Divider variant="solid" />
     </Box>
   );
@@ -20,7 +20,7 @@ function CompanyExperience({ company, location, children }: { company: string, l
 
   return (
     <Stack gap={0}>
-      <Group justify="space-between" mt={"md"}>
+      <Group justify="space-between" mt={"lg"}>
         <Title order={4}>{company}</Title>
         <Text>
           {location}
@@ -45,7 +45,7 @@ function PostitionHeld({ position, timeline }: { position: string, timeline: str
 
 function BulletPoints({ bullets }: { bullets: string[] }) {
   return <List>
-    {bullets.map(b => (<ListItem>{b}</ListItem>))}
+    {bullets.map((b, i) => (<ListItem key={i}>{b}</ListItem>))}
   </List>
 }
 
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
 }
 
 export default function Resume() {
-  return <Container py={"lg"} size={"sm"}>
+  return <Container py={"lg"} size={720}>
     <Center>
 
       <Title order={1}>Andrew Hirschi</Title>

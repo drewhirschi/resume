@@ -1,0 +1,35 @@
+body {
+  background-color: #faf9f7;
+  color: #2d2d2d;
+}
+
+.mantine-List-root {
+  padding-left: 0;
+}
+
+.mantine-List-item {
+  list-style: none;
+  display: flex !important;
+}
+
+.mantine-List-item::before {
+  content: '•';
+  flex-shrink: 0;
+  margin-right: 0.5em;
+}
+
+.mantine-List-itemWrapper {
+  line-height: 1.45;
+  text-align: justify;
+  text-wrap: pretty;
+  min-width: 0;
+  flex: 1;
+}
+
+.mantine-List-itemLabel {
+  min-width: 0;
+}
+
+.mantine-List-item + .mantine-List-item {
+  margin-top: 2px;
+}
