@@ -89,7 +89,7 @@ export default function Resume() {
     <CompanyExperience company="Enzo Health" location="Lehi, UT" >
       <PostitionHeld position="Senior AI Engineer" timeline="Jan 2025 – Present" />
       <BulletPoints bullets={[
-        "Led 4 engineers to build Enzo's patient intake platform, defining the core domain model for patients, episodes, payers, referrals, and clinical records that became the foundation for the company's broader EHR system.",
+        "Led 4 engineers to build the intake platform that became the foundation of Enzo's EHR, replacing manual workflows with an end-to-end system that improved onboarding speed, accuracy, and visibility for clinical and leadership teams.",
         "Built a two-stage AI clinical document pipeline that ingests referral packets, extracts structured medical data, and generates patient summaries and likely diagnoses — turning unstructured intake documents into actionable clinical context.",
         "Architected Enzo's workflow engine, a highly configurable orchestration system that combines automated logic with human-in-the-loop tasks to support deeply customized customer intake operations at scale.",
         "Built integrations with 4 EHR and referral systems — WellSky, Pennant, Strata, and CarePort — enabling bidirectional exchange for referrals, patient creation, clinical summaries, and episode data.",
