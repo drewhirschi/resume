@@ -71,9 +71,6 @@ export default function Resume() {
       </Box>
     </Center>
 
-    <Center>
-      <Text>Kirkland, WA</Text>
-    </Center>
 
 
 
